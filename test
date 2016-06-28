@@ -1,8 +1,17 @@
-<!DOCTYPE html>
+
 <html>
+<title>
+first website
+</title>
 
 <body>
-hi my name is jeffrey
+My name is jeffrey 
 </body>
+
+<style>
+body {
+background-color:green
+}
+</style>
 
 </html>
