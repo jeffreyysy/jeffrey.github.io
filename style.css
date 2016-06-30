@@ -1,0 +1,70 @@
+body{
+  background-color: blanchedalmond;
+}
+
+#container{
+  background-color: red;
+  width: 800px;
+  margin-left: auto;
+  margin-right auto;
+}
+
+#header {
+  background-color: cyan;
+  color: magenta;
+  padding: 0;
+  font-size: 175%;
+  width: 100%;
+  height: 9%;
+  font-family: monaco;
+
+}
+
+#nav {
+position: relative;
+right: 550px;
+bottom: 104px;
+}
+
+#nav1 {
+position: relative;
+left: 250px;
+bottom: 85px;
+}
+
+li {
+  list-style: none;
+  float:right;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+#content {
+  padding: 10px
+}
+
+
+#main {
+  width: 950px;
+  float: right;
+  font-size: 150%;
+  top: 0;
+  position: absolute;
+  top: 57px;
+  left: 495px;
+  text-overflow: ellipsis;
+}
+
+#footer{
+  clear: both;
+  font-size: 100%;
+  position:absolute;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+}
