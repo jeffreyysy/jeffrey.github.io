@@ -7,29 +7,78 @@ body{
   width: 800px;
   margin-left: auto;
   margin-right auto;
+  text-align: center;
 }
 
 #header {
-  background-color: cyan;
-  color: magenta;
+  background-color: darkkhaki;
+  color: indianred;
   padding: 0;
   font-size: 175%;
   width: 100%;
   height: 9%;
-  font-family: monaco;
+  line-height: 73px;
+  font-family: 'Avro',serif;<link href='https://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
 
 }
 
 #nav {
-position: relative;
-right: 475px;
-bottom: 104px;
+position: absolute;
+right: 1180px;
+top: 5px;
 }
 
+#dropdown {
+  position: relative;
+  display: inline-block;
+  line-height: 80px;
+}
+
+#dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+#dropdown:hover #dropdown-content {
+  display: block;
+}
+
+#nav .nav-category {
+  font-size: 150%;
+  line-height: 2;
+  font-family: 'Rock Salt', cursive;<link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+}
+
+#nav .nav-item {
+  font-size: 110%;
+  line-height: 1.8;
+  font-family: 'Permanent Marker', cursive;<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+
+  transition:.5s;
+}
+
+#nav .nav-item:hover {
+  color:pink;
+}
+
+
 #nav1 {
-position: relative;
-left: 250px;
-bottom: 85px;
+position: absolute;
+right: 35px;
+top: 18px;
+}
+
+#nav1 li:hover{
+  transform:scale(1.3);
 }
 
 li {
@@ -48,23 +97,45 @@ a {
   padding: 10px
 }
 
+#swimimg {
+  text-align: center;
+  position: relative;
+  top: 45px;
+  left: 10px;
+}
+
 
 #main {
-  width: 950px;
-  float: right;
+  width: 770px;
+  font-size: 125%;
+  position: relative;
+  left: 248px;
+  top: 45px;
+  font-family: 'Oswald',sans-serif;<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+}
+
+#main .selected{
   font-size: 150%;
-  top: 0;
-  position: absolute;
-  top: 57px;
-  left: 495px;
-  text-overflow: ellipsis;
 }
 
 #footer{
   clear: both;
   font-size: 100%;
-  position:absolute;
+  position:relative;
   text-align: center;
-  bottom: 0px;
+  top: 114px;
   width: 100%;
+
+}
+
+#copyright {
+  text-align: middle;
+  position: relative;
+  top:25px;
+
+}
+
+#update {
+  float:left;
+  font-size: 60%;
 }
