@@ -55,6 +55,7 @@ top: 5px;
 }
 
 #nav .nav-item {
+  visibility: hidden;
   font-size: 110%;
   line-height: 1.8;
   font-family: 'Permanent Marker', cursive;<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
