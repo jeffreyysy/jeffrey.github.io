@@ -11,9 +11,11 @@ body{
 }
 
 #header {
+  clear: both;
   background-color: darkkhaki;
   color: indianred;
   font-size: 175%;
+  position: relative;
   width: 100%;
   line-height: 85px;
   font-family: 'Avro',serif;<link href='https://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
@@ -118,13 +120,15 @@ a {
   left: 10px;
 }
 
+#wordtxt {
+  font-size: 125%;
+  font-family: 'Oswald',sans-serif;<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+}
 
 #main {
   width: 770px;
   font-size: 125%;
   position: relative;
-  left: 248px;
-  top: 45px;
   font-family: 'Oswald',sans-serif;<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 }
 
@@ -137,7 +141,7 @@ a {
   font-size: 100%;
   position:relative;
   text-align: center;
-  top: 114px;
+  top: 73px;
   width: 100%;
 
 }
