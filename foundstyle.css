@@ -110,31 +110,6 @@ a {
   padding: 10px
 }
 
-#booktxt {
-  font-size: 110%;
-}
-
-#books .books1 {
-  position: relative;
-  top: 10px;
-  left: 50px;
-}
-
-#books .books4 {
-  position: relative;
-  top:10px;
-  left:175px;
-}
-
-#books .books3 {
-  position: relative;
-  left:150px;
-}
-
-#books .books2 {
-  position: relative;
-  left:480px;
-}
 
 #ebin {
   text-align: center;
@@ -151,19 +126,18 @@ a {
   color: magenta;
 }
 
-
-#main {
-  width: 770px;
+#ebintxt {
   font-size: 125%;
-  position: relative;
-  left: 248px;
-  top: 45px;
   font-family: 'Oswald',sans-serif;<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 }
 
-#main .selected{
-  font-size: 150%;
+#main {
+  text-align: center;
+  position: relative;
+  font-size: 125%;
+  font-family: 'Oswald',sans-serif;<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 }
+
 
 #footer {
   clear: both;
