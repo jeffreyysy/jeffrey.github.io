@@ -115,6 +115,20 @@ a {
   font-family: 'Oswald',sans-serif;<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 }
 
+#contactinfo {
+
+  font-family: 'Titillium Web', sans-serif;
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600' rel='stylesheet' type='text/css'>
+}
+
+#contactinfo a {
+  color: green;
+}
+
+#contactinfo a:hover {
+  color: magenta;
+}
+
 #main {
   width: 770px;
   font-size: 125%;
