@@ -258,3 +258,30 @@ form p {
   font: 10px sans-serif;
   color: red;
 }
+
+
+
+
+
+/* Thanks Contact Form */
+
+#thankstxt {
+  font-size: 50px;
+  color: red;
+  font-family: 'Yellowtail', cursive;
+  <link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
+}
+
+#thankstxt1 {
+  font-family: 'Lora', serif;
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+}
+
+#thankshome {
+  font-family: 'Share', cursive;
+  <link href='https://fonts.googleapis.com/css?family=Share' rel='stylesheet' type='text/css'>
+}
+
+#thankshome a:hover {
+  color:red;
+}
