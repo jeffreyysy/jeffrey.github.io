@@ -1,6 +1,5 @@
 body{
-  background-image: url("images/beach.jpg");
-  background-size: 100% 150%;
+  background-color:  #deeaee;
   background-repeat: no-repeat;
   color:#cccccc;
   margin-top: 0;
@@ -13,23 +12,20 @@ body{
   padding-right: 0;
 }
 
-#container{
-  width: 800px;
-  height: 1100px;
-  margin-left: auto;
-  margin-right auto;
-  text-align: center;
-}
+
 
 #header {
-  clear: both;
   background-color: #deeaee;
+  background-size: cover;
   color: indianred;
   font-size: 175%;
-  position: relative;
+  position: fixed;
+  /*border: 10px solid gray; */
   width: 100%;
-  line-height: 95px;
+  line-height: 20px;
+  z-index: 9999;
   font-family: 'Avro',serif;<link href='https://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
+
 }
 
 #icon {
@@ -73,14 +69,14 @@ top: 5px;
 }
 
 #nav .nav-category {
-  font-size: 150%;
+  font-size: 87%;
   color: indianred;
   line-height: 2;
   font-family: 'Rock Salt', cursive;<link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
 }
 
 #nav .nav-item {
-  font-size: 110%;
+  font-size: 70%;
   line-height: 1.8;
   color: #80ced6;
   font-family: 'Permanent Marker', cursive;<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
@@ -107,6 +103,10 @@ a {
   text-decoration: none;
 }
 
+#footer {
+  margin: -300 0 0 0;
+}
+
 #nav1 li:hover{
   transform:scale(1.3);
 }
@@ -115,14 +115,20 @@ a {
   padding: 10px
 }
 
-#swimimg {
-  text-align: center;
-  position: relative;
-  top: 45px;
-  left: 10px;
+#swimming {
+position: center;
+
 }
 
+#introtxt {
+  margin: 0px 200px 0px;
+  background-color: transparent;
+}
+
+
+
 #wordtxt {
+  bacground-color: pink;
   font-size: 125%;
   font-family: 'Oswald',sans-serif;<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 }
@@ -142,11 +148,11 @@ a {
 }
 
 #fadein {
-  -webkit-animation: fadein 2s;
-  -moz-animation: fadein 2s;
-  -ms-animation: fadein 2s;
-  -o-animation: fadein 2s;
-  animation: fadein 2s;
+  -webkit-animation: fadein 4s;
+  -moz-animation: fadein 4s;
+  -ms-animation: fadein 4s;
+  -o-animation: fadein 4s;
+  animation: fadein 4s;
 }
 
 @keyframes fadein {
@@ -198,6 +204,7 @@ a {
   text-align: middle;
   position: relative;
   top: 30px;
+  color: black;
 }
 
 #update {
@@ -207,133 +214,91 @@ a {
   top: 20px;
 }
 
+/*parallax effect */
 
-
-
-
-
-
-/* FOUNDATION */
-
-#ebin {
-  text-align: center;
-  position: relative;
-
-}
-
-#nav-item1 {
-  font-size: 175%;
-  color: #2ECC71;
-}
-
-#nav-item1:hover{
-  color: magenta;
-}
-
-#ebintxt {
-  font-size: 125%;
-  font-family: 'Oswald',sans-serif;<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-}
-
-
-
-
-
-
-
-/* Contact */
-
-#form-wrap {
-  width: 600px;
-  border: 5px soild #ccc;
-  background-color: #afc8de;
-  margin: 50px auto;
-  padding: 20px 0;
-}
-
-form {
-  width: 500px;
+.container {
+  max-width: 960px;
   margin: 0 auto;
 }
 
-label {
-  display: block;
-  margin: 30px 0 5px 20px;
-  font-family: 'Niconne', cursive;
-  <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
-  color: #888;
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: indianred;
+
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 925px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+
+  font-size: 48px;
+  line-height: 925px;
+  font-weight: 700;
+  text-align: center;
+  color: indianred;
+
+
+
+}
+section.module.parallax-1 {
+  background-image: url("images/swim.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("images/aboutme.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("images/adventure.jpg");
 }
 
-input {
-  width: 350px;
-  margin: 0 0 0 20px;
+section.module.parallax-4 {
+  background-image: url("images/volunteer.jpg");
 }
 
-textarea {
-  width:350px;
-  height: 300px;
-  margin: 0 0 0 20px;
+section.module.parallax-5 {
+  background-image: url("images/contact.jpg");
 }
 
-fieldset {
-  border: none;
-  background-color: #f6f6f6;
-  padding: 0 0 20px 0;
-}
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 40px;
 
-.labelone {
-  margin-top: 10px;
+  }
 }
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 40px;
 
-.btn {
-  width: 125px;
-  font-family: 'Yesteryear', cursive;
-  <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
-}
-
-form h4 {
-  margin: 20px 0 0 20px;
-  font-size: 25px;
-  color: #518A10;
-  font-weight: bold;
-  font-family: 'Romanesco', cursive;<link href='https://fonts.googleapis.com/css?family=Romanesco' rel='stylesheet' type='text/css'>
-}
-
-form p {
-  margin: 20px 0 0 20px;
-  font: 10px sans-serif;
-  color: red;
+  }
 }
 
 
-
-
-
-/* Thanks Contact Form */
-
-#thankstxt {
-  font-size: 50px;
-  color: red;
-  font-family: 'Yellowtail', cursive;
-  <link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
+#arrowspace {
+  margin: 0 0 0 550;
 }
-
-#thankstxt1 {
-  font-family: 'Lora', serif;
-  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-}
-
-#thankshome {
-  font-family: 'Share', cursive;
-  <link href='https://fonts.googleapis.com/css?family=Share' rel='stylesheet' type='text/css'>
-}
-
-#thankshome a:hover {
-  color:red;
-}
-
-
-
-
-
-/* Quote Page */
