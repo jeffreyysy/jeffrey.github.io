@@ -344,7 +344,7 @@ form p {
 
 #aboutheader {
   float: left;
-  margin: -840 125 0 650;
+  margin: -840 -300 0 650;
   font-size: 30px;
   color: indianred;
   font-family: 'News Cycle', sans-serif;
