@@ -342,40 +342,16 @@ form p {
   margin: -5 0 0 15;
 }
 
-#aboutheader {
-  float: left;
-  margin: -840 -300 0 650;
-  font-size: 30px;
-  color: indianred;
-  font-family: 'News Cycle', sans-serif;
-  <link href='https://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
-}
-
-#smalltxt1 {
-  float: left;
-  margin: -745 0 200 655;
-  font-size: 20px;
-  color: indianred;
-  font-family: 'News Cycle', sans-serif;
-  <link href='https://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
-}
-
-#smalltxt2 {
-  float: left;
-  margin: -720 0 200 655;
-  font-size: 20px;
-  color: indianred;
-  font-family: 'News Cycle', sans-serif;
-  <link href='https://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
-}
-
 #paragraphtitle {
   float: left;
-  margin: -680 0 0 655;
-  font-size: 20px;
+  margin: -820 0 0 650;
   color: indianred;
   font-family: 'News Cycle', sans-serif;
   <link href='https://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+}
+
+p.smallline {
+  line-height: 0.1;
 }
 
 #aboutfooter {
