@@ -264,6 +264,7 @@ section.module.parallax h1 {
 }
 section.module.parallax-1 {
   background-image: url("images/swim.JPG");
+  background-size: 115%;
 }
 
 section.module.parallax-2 {
