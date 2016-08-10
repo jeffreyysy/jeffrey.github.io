@@ -1,5 +1,5 @@
 $(document).ready(function() {
-var movementStrength = 20;
+var movementStrength = 45;
 var height = movementStrength / $(window).height();
 var width = movementStrength / $(window).width();
 $("section.module.parallax-1").mousemove(function(e){
