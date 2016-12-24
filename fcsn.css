@@ -1,0 +1,106 @@
+
+
+/* slider text */
+
+.sidenav {
+    height: 94%;
+    width: 0;
+    position: relative;
+    z-index: 9999999;
+    top: 0;
+    left: 0;
+    background-color: #deeaee;
+    -ms-filter: "alpha(opacity=75)";
+    filter: alpha(opacity=75);
+    -khtml-opacity: 0.75;
+    -moz-opacity: 0.75;
+    opacity: 0.75;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+#main1 {
+    transition: margin-left .5s;
+    padding: 16px;
+    position: relative;
+    margin: -935 0 0 0;
+}
+
+#main2 {
+    transition: margin-left .5s;
+    padding: 16px;
+    position: relative;
+    margin: -935 0 0 0;
+}
+
+.sidenav1 {
+    height: 94%;
+    width: 0;
+    position: relative;
+    z-index: 9999999;
+    top: 0;
+    right: 0;
+    background-color: #deeaee;
+    -ms-filter: "alpha(opacity=75)";
+    filter: alpha(opacity=75);
+    -khtml-opacity: 0.75;
+    -moz-opacity: 0.75;
+    opacity: 0.75;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+.closebtn1 {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav1 {padding-top: 15px;}
+}
+
+
+
+
+/* slider text content */
+
+#contenttitle1 {
+  margin: -500 0 0 12;
+}
+
+#contentpara1 {
+  margin: -450 15 0 13;
+  float: left;
+  font-size: 20px;
+  color: indianred;
+}
+
+#contenttitle2 {
+  margin: -500 0 0 12;
+}
+
+#contentpara2 {
+  margin: -450 15 0 13;
+  float: left;
+  font-size: 20px;
+  color: indianred;
+}

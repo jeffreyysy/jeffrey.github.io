@@ -611,3 +611,60 @@ p.smallline {
   z-index: 99999;
   margin: 0 50 0 50;
 }
+
+
+
+
+/* Project Page */
+
+#project1 {
+  margin: 0 0 0 300;
+}
+
+#project2 {
+  margin: 0 0 0 300;
+}
+
+#project1pic {
+  margin: 0 0 0 300;
+}
+
+
+
+
+
+
+
+/*CS PROJECT */
+
+#cscontent1 {
+  font-size: 30px;
+}
+
+#piccontent {
+  font-size: 30px;
+}
+
+#left1 {
+  position: relative;
+  left: 5%;
+  font-size: 25px;
+}
+
+#middle1 {
+position: relative;
+left: 50%;
+bottom: 5%;
+font-size: 25px;
+}
+
+#right1 {
+  position: relative;
+  left: 95%;
+  bottom: 10%;
+  font-size: 25px;
+}
+
+#uptop {
+  font-size: 30px;
+}

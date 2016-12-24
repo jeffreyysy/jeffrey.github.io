@@ -1,0 +1,160 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="fcsntest1.css" />
+</head>
+
+<body>
+
+
+
+<img id="myImg3" src="images/chiu1.jpg" alt="" width="350" height="250">
+
+
+<div id="myModal3" class="modal3">
+  <span class="close3">&times</span>
+  <img class="modal-content3" id="img03">
+  <div id="imagecap3">
+    <div id="mySidenav3" class="sidenav3">
+      <a href="javascript:void(0)" class="closebtn3" onclick="closeNav3()">&times</a>
+      <div id="contenttitle3">
+      <h1>Jeffrey Chiu</h1>
+      </div>
+      <div id="contentpara3">
+      <p1>Jeffrey has been a part of the FCSN swim camp for over 2 years. I was lucky enough to have him as a
+         student for one week, but I wish I could have had him longer. Even though it was only a week, Jeffrey
+         has demonstrated skills a lot of people don't have. He has mastered the strokes both freestyle and
+         breaststroke. Each day, we would spend about 45 minutes in the pool. It would be 30 minutes of swim
+         time and 15 minutes of social interaction. He also loves talking about Disney movies especially Finding
+         Dory. Jeffrey is a very passionate and caring guy. </p1>
+    </div>
+
+
+    </div>
+
+
+
+    <div id="main3">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav3()">
+      <img src="images/bulb.png" alt="home" style="width:75px; height:75px;"></span>
+    </div>
+</div>
+  <div id="caption3">
+  </div>
+</div>
+
+
+
+<img id="myImg2" src="images/swim.jpg" alt="" width="350" height="250">
+<div id="myModal2" class="modal2">
+  <span class="close2">&times</span>
+  <img class="modal-content2" id="img02">
+  <div id="imagecap2">
+    <div id="mySidenav2" class="sidenav2">
+      <a href="javascript:void(0)" class="closebtn2" onclick="closeNav2()">&times</a>
+      <div id="contenttitle2">
+      <h1>Jeffrey Chiu</h1>
+      </div>
+      <div id="contentpara2">
+      <p1>Jeffrey has been a part of the FCSN swim camp for over 2 years. I was lucky enough to have him as a
+         student for one week, but I wish I could have had him longer. Even though it was only a week, Jeffrey
+         has demonstrated skills a lot of people don't have. He has mastered the strokes both freestyle and
+         breaststroke. Each day, we would spend about 45 minutes in the pool. It would be 30 minutes of swim
+         time and 15 minutes of social interaction. He also loves talking about Disney movies especially Finding
+         Dory. Jeffrey is a very passionate and caring guy. </p1>
+    </div>
+
+
+    </div>
+
+
+
+    <div id="main2">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav3()">
+      <img src="images/bulb.png" alt="home" style="width:75px; height:75px;"></span>
+    </div>
+</div>
+  <div id="caption2">
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+
+var modal = document.getElementById('myModal3');
+
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img03");
+var captionText = document.getElementById("caption3");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+var span = document.getElementsByClassName("close3")[0];
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+var modal = document.getElementById('myModal2');
+
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img02");
+var captionText = document.getElementById("caption2");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+var span = document.getElementsByClassName("close2")[0];
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+</script>
+
+<script>
+function openNav3() {
+    document.getElementById("mySidenav3").style.width = "100%";
+    document.getElementById("main3").style.marginLeft = "100%";
+    document.body.style.backgroundColor = "#deeaee";
+}
+
+function closeNav3() {
+    document.getElementById("mySidenav3").style.width = "0";
+    document.getElementById("main3").style.marginLeft= "0";
+    document.body.style.backgroundColor = "#deeaee";
+}
+
+function openNav2() {
+    document.getElementById("mySidenav2").style.width = "100%";
+    document.getElementById("main2").style.marginLeft = "100%";
+    document.body.style.backgroundColor = "#deeaee";
+}
+
+function closeNav2() {
+    document.getElementById("mySidenav2").style.width = "0";
+    document.getElementById("main2").style.marginLeft= "0";
+    document.body.style.backgroundColor = "#deeaee";
+}
+</script>
+
+
+
+</body>
+
+
+</html>
