@@ -1,15 +1,1 @@
-#logo {
-  position: relative;
-
-  margin: 10% 60% 0 60%;
-}
-
-#text {
-  position: relative;
-  margin: -15% 0 0 15%;
-}
-
-#message {
-  position: relative;
-  margin: 0 0 0 15%;
-}
+body{background-size:100%;background-repeat:no-repeat;margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0}#logo{position:relative;float:left;margin:-230px 0 0 60%}#name{color:black;position:relative;margin:200px 0 0% 17%;font-size:20px;font-family:'Open Sans',sans-serif;<link href= "https://fonts.googleapis.com/css?family=Open+Sans" rel= "stylesheet"> }a{color:black}a:visited{color:black}a:hover{color:black}a:link{color:black}#text{font-size:18px;position:relative;margin:0 50% 0% 17%}#message{position:relative;margin:0 48% 0 17%}

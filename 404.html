@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
+  <body>
 
-  <div id="logo">
-    <img src="images/logo.png" alt="logo" style="width:250px;height:325.5px;" oncontextmenu="return false" ondragstart="return false">
-  </div>
 
+
+
+    <div id="border">
   <div id="name">
-    asda
+    <h1><a href="/" style="text-decoration: none"> Jeffrey Yeung</a></h1>
   </div>
 
   <div id= "text">
@@ -21,8 +22,21 @@
   </div>
 
   <div id="message">
-    <p> The requested URL <code>/</code> was not found on this server.</p>
-    <p> That's all we know.</p>
+    <p> The requested URL <span id="right">[]</span> was not found on this server.
+      <span style="opacity: 0.5;">That's all we know.</p>
+  </div>
+
+  <div id="logo">
+    <img src="images/logo.png" alt="logo" style="width:250px;height:325.5px;" oncontextmenu="return false" ondragstart="return false">
+  </div>
+</div>
+
+
+    <script>
+      document.getElementById('right').innerHTML = window.location.href;
+    </script>
+
+  </body>
 
 
 </html>
