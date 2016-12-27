@@ -1,0 +1,15 @@
+#logo {
+  position: relative;
+
+  margin: 10% 60% 0 60%;
+}
+
+#text {
+  position: relative;
+  margin: -15% 0 0 15%;
+}
+
+#message {
+  position: relative;
+  margin: 0 0 0 15%;
+}
