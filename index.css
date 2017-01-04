@@ -19,7 +19,7 @@ body{
   background-color: #deeaee;
   background-size: cover;
   color: indianred;
-  font-size: 175%;
+  font-size: 2vw;
   position: fixed;
   /*border: 10px solid gray; */
   width: 100%;
@@ -34,12 +34,14 @@ body{
   position:relative;
   top: 5px;
   left: 175px;
+  width: 6vw;
 }
 
 #homenav {
   position: absolute;
   top: 10px;
   left: 20px;
+  width: 6vw;
 }
 
 #nav {
@@ -57,12 +59,13 @@ top: 5px;
 
 #dropdown-content {
   display: none;
-  position: absolute;
+  position: fixed;
   background-color: #e0e2e4;
-  min-width: 160px;
+  max-width: 20%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
+  left: 83%;
 }
 
 #dropdown:hover #dropdown-content {
@@ -70,14 +73,14 @@ top: 5px;
 }
 
 #nav .nav-category {
-  font-size: 87%;
+  font-size: 1.5vw;
   color: indianred;
   line-height: 2;
   font-family: 'Rock Salt', cursive;<link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
 }
 
 #nav .nav-item {
-  font-size: 70%;
+  font-size: 1vw;
   line-height: 1.8;
   color: #80ced6;
   font-family: 'Permanent Marker', cursive;<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
@@ -201,7 +204,7 @@ position: center;
 }
 
 #copyright {
-  font-size: 60%;
+  font-size: 0.7vw;
   text-align: middle;
   position: relative;
   top: 30px;
@@ -325,60 +328,56 @@ section.module.parallax-5 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    width: 15%;
-    margin: 416 0 0 42%;
-    font-size: 40px;
+    margin: 416 0 0 45%;
+    font-size: 2vw;
     padding: 10px;
     font-weight: 700;
-    float: center;
+    float: left;
 }
 
 .button2 {
-    position:relative;
-    background-color: trasparent;
-    border: 5px solid indianred;
-    color: indianred;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 40px;
-    width: 20%;
-    margin: 416 0 0 40%;
-    padding: 10px;
-    font-weight: 700;
-    float: left;
+  position: relative;
+  background-color: trasparent;
+  border: 5px solid indianred;
+  color: indianred;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 416 0 0 43%;
+  font-size: 2vw;
+  padding: 10px;
+  font-weight: 700;
+  float: left;
 }
 
 .button3 {
-    position: relative;
-    background-color: trasparent;
-    border: 5px solid indianred;
-    color: indianred;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 40px;
-    width: 10%;
-    margin: 416 0 0 44%;
-    padding: 10px;
-    font-weight: 700;
-    float: left;
+  position: relative;
+  background-color: trasparent;
+  border: 5px solid indianred;
+  color: indianred;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 416 0 0 48%;
+  font-size: 2vw;
+  padding: 10px;
+  font-weight: 700;
+  float: left;
 }
 
 .button4 {
-    position: relative;
-    background-color: trasparent; /* Green */
-    border: 5px solid indianred;
-    color: indianred;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 40px;
-    width: 20%;
-    margin: 416 0 0 30%;
-    padding: 10px;
-    font-weight: 700;
-    float: left;
+  position: relative;
+  background-color: trasparent;
+  border: 5px solid indianred;
+  color: indianred;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 416 0 0 35%;
+  font-size: 2vw;
+  padding: 10px;
+  font-weight: 700;
+  float: left;
 }
 
 .button5 {
@@ -389,8 +388,7 @@ section.module.parallax-5 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 40px;
-    width: 11%;
+    font-size: 2vw;
     margin: 416 0 0 5%;
     padding: 10px;
     font-weight: 700;
