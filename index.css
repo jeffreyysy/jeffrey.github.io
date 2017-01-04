@@ -19,7 +19,7 @@ body{
   background-color: #deeaee;
   background-size: cover;
   color: indianred;
-  font-size: 2vw;
+  font-size: 1.6vw;
   position: fixed;
   /*border: 10px solid gray; */
   width: 100%;
@@ -34,14 +34,14 @@ body{
   position:relative;
   top: 5px;
   left: 175px;
-  width: 6vw;
+  width: 4vw;
 }
 
 #homenav {
   position: absolute;
   top: 10px;
   left: 20px;
-  width: 6vw;
+  width: 4vw;
 }
 
 #nav {
@@ -80,7 +80,7 @@ top: 5px;
 }
 
 #nav .nav-item {
-  font-size: 1vw;
+  font-size: 1.4vw;
   line-height: 1.8;
   color: #80ced6;
   font-family: 'Permanent Marker', cursive;<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
@@ -113,6 +113,11 @@ a {
 
 #nav1 li:hover{
   transform:scale(1.3);
+}
+
+#nav1 {
+  position: relative;
+  margin: 1.4vh 1vw 0 0;
 }
 
 #content {
@@ -198,7 +203,7 @@ position: center;
   font-size: 100%;
   position: relative;
   text-align: center;
-  top:300px;
+  top:35vh;
   width: 100%
 
 }
@@ -268,8 +273,8 @@ section.module.parallax h1 {
 
 }
 section.module.parallax-1 {
-  background-image: url("images/swim.JPG");
-  height:100%;
+  background-image: url("images/swim1.jpg");
+  height: 100%;
   width: 100%;
 }
 
