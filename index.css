@@ -307,6 +307,7 @@ section.module.parallax-5 {
   }
   section.module p {
     font-size: 20px;
+    margin: 0 10% 0 10%;
   }
   section.module.parallax h1 {
     font-size: 40px;
