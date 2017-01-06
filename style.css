@@ -685,11 +685,11 @@ p.smallline {
 }
 
 #middle1 {
-position: relative;
-text-align: center;
-margin: 20 0 0 0;
-bottom: 5%;
-font-size: 25px;
+  position: relative;
+  text-align: center;
+  margin: 20 0 0 0;
+  bottom: 5%;
+  font-size: 25px;
 }
 
 #right1 {
@@ -716,11 +716,11 @@ font-size: 25px;
 }
 
 #middle2 {
-position: relative;
-text-align: center;
-margin: 20 0 0 0;
-bottom: 5%;
-font-size: 25px;
+  position: relative;
+  text-align: center;
+  margin: 20 0 0 0;
+  bottom: 5%;
+  font-size: 25px;
 }
 
 #right2 {
@@ -730,18 +730,4 @@ font-size: 25px;
   bottom: 10%;
   font-size: 25px;
 
-}
-
-#uptop1 {
-  position: relative;
-  text-align: center;
-  margin: 0 50 0 50;
-  font-size: 30px;
-}
-
-#proud1 {
-  position: relative;
-  text-align: center;
-  margin: 0 50 0 50;
-  font-size: 30px;
 }
