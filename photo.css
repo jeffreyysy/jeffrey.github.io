@@ -74,9 +74,7 @@ html, body {
 .arrow {
 	display: flex;
 	position: absolute;
-	width: 100px;
-	height: 925px;
-	bottom: 10px;
+	margin: 45vh 3vw 0 3vw;
 	flex: 1;
 	text-align: center;
 	line-height: 50px;
