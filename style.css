@@ -813,13 +813,14 @@ p.smallline {
 }
 
 #grad:hover {
-  opacity: 0.5; 
+  opacity: 0.5;
   filter: alpha(opacity=30);
 }
 
 #grad img {
   position: absolute;
   left:0;
+  border-radius: 90%;
 }
 
 #grad img {
